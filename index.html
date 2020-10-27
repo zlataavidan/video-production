@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="video-production/css/main.css">
     <title>Video Production</title>
   </head>
   <body>
-    <div class="wrapper">
+   <div class="wrapper main-page-wrapper">
+      <div class="container">
         <header class="header">
           <a href="#" class="logo">
             <img src="/video-production/img/logo.png" alt="Логотип" class="logo__img">
@@ -26,14 +28,14 @@
           </nav>
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
-            <div class="contacts__workhours">График работы</div>
+            <div class="contacts__dropdown-title">График работы</div>
           </address>
         </header>
-        <main class="main_content">
+       <main class="main_content">
           <div class="preview">
             <h1 class="preview__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
-            <p class="preview__description">Креативный видеопродакшн полного цикла</p>
-            <button class="preview__button">Подробнее</button>
+            <h3 class="preview__description">Креативный видеопродакшн полного цикла</h3>
+            <button class="button button--orange">Подробнее</button>
           </div>
           <div class="services">
             <ul class="services__list">
@@ -44,15 +46,15 @@
                     <h2 class="services__title">Реклама</h2>
                     <div class="services__desc">
                       <div class="services__desc-block">
-                        <span class="services__desc-text">От <b>5</b> человек на проект</span>
+                        <span class="services__desc-people">От <b>5</b> человек на проект</span>
                       </div>
                       <div class="services__desc-block">
-                        <span class="services__desc-text"><b>28</b> дней работы в целом</span>
+                        <span class="services__desc-days"><b>28</b> дней работы в целом</span>
                     </div>
                     <p class="services__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
                     </div>
                     <div class="services__button">
-                      <button class="button">Подробнее</button>
+                      <button class="button button--white">Подробнее</button>
                     </div>
                   </div>
                 </div>
@@ -64,15 +66,15 @@
                     <h2 class="services__title">Видео-клип</h2>
                     <div class="services__desc">
                       <div class="services__desc-block">
-                        <span class="services__desc-text">От <b>7</b> человек на проект</span>
+                        <span class="services__desc-people">От <b>7</b> человек на проект</span>
                       </div>
                       <div class="services__desc-block">
-                        <span class="services__desc-text"><b>21</b> день работы в целом</span>
+                        <span class="services__desc-days"><b>21</b> день работы в целом</span>
                     </div>
                     <p class="services__text">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
                     </div>
                     <div class="services__button">
-                      <button class="button">Подробнее</button>
+                      <button class="button button--white">Подробнее</button>
                     </div>
                   </div>
                 </div>
@@ -84,15 +86,15 @@
                     <h2 class="services__title">Свадьба</h2>
                     <div class="services__desc">
                       <div class="services__desc-block">
-                        <span class="services__desc-text">От <b>2</b> человек на проект</span>
+                        <span class="services__desc-people">От <b>2</b> человек на проект</span>
                       </div>
                       <div class="services__desc-block">
-                        <span class="services__desc-text"><b>30</b> день работы в целом</span>
+                        <span class="services__desc-days"><b>30</b> день работы в целом</span>
                     </div>
                     <p class="services__text">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
                     </div>
                     <div class="services__button">
-                      <button class="button">Подробнее</button>
+                      <button class="button button--white">Подробнее</button>
                     </div>
                   </div>
                 </div>
@@ -105,6 +107,7 @@
             </h2  >
             <ul class="news__list">
               <li class="news__item">
+                <img src="/video-production/img/camera.jpg" alt="camera" class="news__cover">
                 <div class="news__content">
                   <time class="news__date">
                     <span class="news__date-month">Декабрь</span>
@@ -115,6 +118,7 @@
                 </div>
               </li>
               <li class="news__item">
+                <img src="/video-production/img/wedding.jpg" alt="wedding" class="news__cover">
                 <div class="news__content">
                   <time class="news__date">
                     <span class="news__date-month">Декабрь</span>
@@ -131,7 +135,7 @@
                 из <span class="paginator__display-all">7</span> 
               </div>
               <ul class="paginator__list">
-                <li class="paginator__item">
+                <li class="paginator__item paginator__item--active">
                   <a href="#" class="paginator__link">1</a>
                 </li>
                 <li class="paginator__item">
@@ -154,15 +158,14 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> 
           <div class="about">
-            <img src="/video-production/img/cameraman.jpg" alt="Cameraman" class="about__img">
             <div class="about__content">
               <h2 class="about__title">О нас</h2>
               <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
               </p>
               <div class="about__button">
-                <button class="button">Подробнее</button>
+                <button class="button button--orange">Подробнее</button>
               </div>
             </div>
           </div>
@@ -186,33 +189,26 @@
           </nav>
           <div class="socials">
             <ul class="socials__list">
-              <li class="socials__item">
-                <a href="#" class="socials__link">
-                  <img src="/video-production/img/t2.png" alt="Telegram" class="socials__icon">
-                </a>
+              <li class="socials__item socials__item-tg">
+                <a href="#" class="socials__link"></a>
               </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link">
-                  <img src="/video-production/img/vk2.png" alt="Vkontakte" class="socials__icon">
-                </a>
+              <li class="socials__item socials__item-vk">
+                <a href="#" class="socials__link"></a>
               </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link">
-                  <img src="/video-production/img/f2.png" alt="Facebook" class="socials__icon">
-                </a>
+              <li class="socials__item socials__item-fb">
+                <a href="#" class="socials__link"></a>
               </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link">
-                  <img src="/video-production/img/in2.png" alt="Instagram" class="socials__icon">
-                </a>
+              <li class="socials__item socials__item-insta">
+                <a href="#" class="socials__link"></a>
               </li>
             </ul>
           </div>
           <address class="contacts">
             <span class="contacts__text">Бесплатный звонок по России</span>
-            <a href="tel:+78007003030 class="contacts__tel">8 800 700 30 30</a>
+            <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
           </address>
-      </footer>
-    </div>
+         </footer>
+          </div>
+      </div>
   </body>
-</html>
+</html> 
