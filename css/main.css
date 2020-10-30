@@ -102,30 +102,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__text-section {
-  position: absolute;
   text-align: center;
-  width: 776px;
   margin-bottom: 233px;
 }
 
 .hero__title {
-  position: absolute;
   font-weight: 800;
   font-size: 72px;
-  margin-bottom: 15px;
+  margin: 0px auto 15px;
   width: 786px;
-  height: 164px;
   left: 180px;
   line-height: 98px;
+  text-transform: uppercase;
 }
 
 .hero__subtitle {
   font-size: 18px;
-  position: absolute;
-  width: 392px;
-  height: 20px;
-  left: 367px;
-  top: 181px;
   margin-bottom: 43px;
 }
 
@@ -162,17 +154,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services__list {
-  position: absolute;
-  top: 795px;
+  font-size: 0;
 }
 
 .services__item {
+  font-size: 16px;
   display: inline-block;
   min-height: 476px;
   background: #fff;
   border-radius: 5px;
   border: 5px solid #CCCCCC;
-  margin-right: 7px;
+  margin-right: 27px;
   width: 362px;
   vertical-align: top;
 }
@@ -183,17 +175,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__img-wrapper {
   position: relative;
+  padding: 36px 34px 53px 22px;
+  height: 100%;
 }
 
 .services__img {
-  position: absolute;
-    min-height: 80px;
+  min-height: 83px;
   width: 84px;
   margin-bottom: 26px;
 }
 
 .services__content {
-  padding: 40px 30px;
+  min-height: 296px;
 }
 
 .services__title {
@@ -210,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #666666;
   display: inline-block;
   vertical-align: top;
-  margin-right: 80px;
+  width: 49%;
 }
 
 .services__desc-block:last-child {
@@ -232,8 +225,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 47px;
 }
 
+.services__button {
+  position: absolute;
+  bottom: 53px;
+}
+
 .news {
   margin-bottom: 55px;
+}
+
+.news__list {
+  margin-bottom: 57.5px;
 }
 
 .news__title {
@@ -318,12 +320,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -97px;
+  left: -354px;
   display: block;
   width: 490px;
   height: 505px;
-  background: url(/video-production/img/cameraman.jpg) center center / cover no-repeat;
+  background-image: url("/video-production/img/cameraman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.about {
+  margin-left: 354px;
+  position: relative;
+}
 .about__content {
   background: #FFFFFF;
   border-radius: 5px;
