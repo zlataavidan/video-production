@@ -1,0 +1,32 @@
+.button {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 195px;
+  height: 57px;
+  padding: 18px 54px;
+  border-radius: 35px;
+  text-decoration: none;
+}
+
+.button--orange {
+  color: #fff;
+  background: #FF3D00;
+}
+
+.button--white {
+  color: #FF5500;
+  background: #fff;
+  border: 2px solid #FF5500;
+  box-sizing: border-box;
+}
+
+.button--white:hover {
+ background: #FF5500;
+ color: #fff;
+}
+
+.button--about {
+  padding: 18px 40px;
+  width: 168px;
+}
