@@ -23,17 +23,17 @@
 }
 
 .socials__item-tg .socials__link {
-background-image: url(../../img/t2.png);
+background-image: url(/video-production/img/t2.png);
 }
 
 .socials__item-vk .socials__link {
-  background-image: url(../../img/vk2.png);
+  background-image: url(/video-production/img/vk2.png);
   }
 
 .socials__item-fb .socials__link {
-  background-image: url(../../img/f2.png);
+  background-image: url(/video-production/img/f2.png);
   }
 
 .socials__item-insta .socials__link {
-  background-image: url(../../img/in2.png);
+  background-image: url(/video-production/img/in2.png);
   }
