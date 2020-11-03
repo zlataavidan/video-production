@@ -1,19 +1,19 @@
-@import url("/video-production/css/layout/normalize.css");
-@import url("/video-production/css/layout/base.css");
+@import url("video-production/css/layout/normalize.css");
+@import url("video-production/css/layout/base.css");
 
-@import url("/video-production/css/blocks/header.css");
-@import url("/video-production/css/blocks/logo.css");
-@import url("/video-production/css/blocks/menu.css");
-@import url("/video-production/css/blocks/contacts.css");
-@import url("/video-production/css/blocks/hero.css");
-@import url("/video-production/css/blocks/button.css");
-@import url("/video-production/css/blocks/offers.css");
-@import url("/video-production/css/blocks/news.css");
-@import url("/video-production/css/blocks/about.css");
-@import url("/video-production/css/blocks/paginator.css");
-@import url("/video-production/css/blocks/footer.css");
-@import url("/video-production/css/blocks/socials.css");
-@import url("/video-production/css/blocks/top-line.css");
-@import url("/video-production/css/blocks/services.css");
-@import url("/video-production/css/blocks/inner-section.css");
+@import url("video-production/css/blocks/header.css");
+@import url("video-production/css/blocks/logo.css");
+@import url("video-production/css/blocks/menu.css");
+@import url("video-production/css/blocks/contacts.css");
+@import url("video-production/css/blocks/hero.css");
+@import url("video-production/css/blocks/button.css");
+@import url("video-production/css/blocks/offers.css");
+@import url("video-production/css/blocks/news.css");
+@import url("video-production/css/blocks/about.css");
+@import url("video-production/css/blocks/paginator.css");
+@import url("video-production/css/blocks/footer.css");
+@import url("video-production/css/blocks/socials.css");
+@import url("video-production/css/blocks/top-line.css");
+@import url("video-production/css/blocks/services.css");
+@import url("video-production/css/blocks/inner-section.css");
 
