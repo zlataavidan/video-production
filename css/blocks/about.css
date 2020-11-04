@@ -7,7 +7,7 @@
   display: block;
   width: 490px;
   height: 505px;
-  background-image: url("/video-production/img/cameraman.jpg");
+  background-image: url("../../img/cameraman.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
