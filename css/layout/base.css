@@ -52,7 +52,7 @@ flex: 1;
 }
 
 .main-page-wrapper {
-  background: url(/video-production/img/hero.jpg) center top no-repeat, url(/video-production/img/bottom-pic.jpg) right bottom 306px no-repeat;
+  background: url(../../img/hero.jpg) center top no-repeat, url(../../img/bottom-pic.jpg) right bottom 306px no-repeat;
 }
 
 .container {
