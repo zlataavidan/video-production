@@ -2,7 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+}
+
+.paginator--main {
+  margin-bottom: 250px;
+}
+
+.paginator--services {
+margin-bottom: 90px;
 }
 
 .paginator__display {

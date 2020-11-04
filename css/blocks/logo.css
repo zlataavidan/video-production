@@ -1,4 +1,11 @@
 .logo {
   display: block;
+}
+
+.logo--header {
   margin-right: 211px;
+}
+
+.logo--footer {
+  margin-right: 125px;
 }
