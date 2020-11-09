@@ -39,6 +39,12 @@ img {
   max-width: 100%;
 }
 
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 .wrapper {
   overflow: hidden;
   min-width: 1200px;
