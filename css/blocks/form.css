@@ -25,3 +25,28 @@
 .form__input--textarea {
   height: 235px;
 }
+
+.form__controls {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__controls-title {
+  width: 40%;
+  font-size: 18px;
+  color: #1A1B1E;
+  padding-left: 25px;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 20px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}

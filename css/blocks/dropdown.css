@@ -1,0 +1,37 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding: 22px 20px;
+  width: 162px;
+  top: 100%;
+  display: none;
+  border-radius: 4px;
+}
+
+.dropdown__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dropdown__item-time {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1E1F20;
+}
+
+.dropdown__item-lunch {
+  font-weight: 600;
+  font-size: 13px;
+  color: #1E1F20;
+}
