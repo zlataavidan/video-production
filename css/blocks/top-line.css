@@ -7,10 +7,10 @@
 }
 
 .top-line__container {
-display: flex;
-flex: 1;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .page-title {
@@ -30,6 +30,7 @@ justify-content: space-between;
 .breadcrumbs__item {
   display: flex;
   align-items: center;
+  color: #9A9A9A;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {

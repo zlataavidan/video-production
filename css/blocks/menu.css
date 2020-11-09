@@ -4,10 +4,6 @@
   margin-right: 57px;
 }
 
-.menu__item:hover {
-  color: #DA0100;
-}
-
 .menu__item:last-child {
   margin-right: 0;
 }
