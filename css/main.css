@@ -5,7 +5,7 @@
 @import url("../css/blocks/menu.css");
 @import url("../css/blocks/contacts.css");
 @import url("../css/blocks/hero.css");
-@import url("../css/blocks/button.css");
+@import url("../css/blocks/btn.css");
 @import url("../css/blocks/offers.css");
 @import url("../css/blocks/news.css");
 @import url("../css/blocks/about.css");
@@ -19,3 +19,7 @@
 @import url("../css/blocks/reviews.css");
 @import url("../css/blocks/separator.css");
 @import url("../css/blocks/form.css");
+@import url("../css/blocks/tag.css");
+@import url("../css/blocks/controls.css");
+@import url("../css/blocks/welcome-page.css");
+@import url("../css/blocks/dropdown.css");
