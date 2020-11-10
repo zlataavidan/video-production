@@ -5,6 +5,7 @@
 
 .partners__item {
   margin-left: 40px;
+  margin-bottom: 70px;
 }
 
 .partners__item:nth-child(4n + 1) {
@@ -15,8 +16,14 @@
 .partners__link {
   text-decoration: none;
   display: flex;
-  width: 270px;
-  height: 100px;
+  width: 210px;
+  height: 75px;
   align-items: center;
   justify-content: center;
+  filter: grayscale(100%);
+} 
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition: all 0.3s;
 }
