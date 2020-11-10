@@ -7,6 +7,7 @@
 
 .reviews__item {
   margin-bottom: 20px;
+  max-width: 557px;
 }
 
 .review {
@@ -36,7 +37,7 @@
 .review__user:hover {
   text-decoration: underline;
   color: #2E77A4;
-  ;
+  transition: all 0.3s;
 }
 
 .review__user:after {
