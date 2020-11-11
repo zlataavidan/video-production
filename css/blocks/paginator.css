@@ -43,4 +43,5 @@ margin-bottom: 90px;
 
 .paginator__link:hover {
   background: #FF5500;
+  transition: all 0.3s;
 }

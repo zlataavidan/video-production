@@ -1,10 +1,10 @@
 .inner-section {
   background: #fff;
   color: #1A1B1E;
-  padding: 85px 250px;
+  padding: 90px 0px;
 }
 
-.inner-section-bg-grey {
+.inner-section--bg--grey {
   background: #F4F5F5;
 }
 
@@ -13,6 +13,5 @@
   font-size: 48px;
   line-height: 65px;
   margin-bottom: 50px;
-  color: #1A1B1E;
 }
 

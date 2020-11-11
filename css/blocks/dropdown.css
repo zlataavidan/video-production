@@ -4,6 +4,7 @@
 
 .dropdown:hover .dropdown__menu {
   display: block;
+  transition: all 0.3s;
 }
 
 .dropdown__menu {

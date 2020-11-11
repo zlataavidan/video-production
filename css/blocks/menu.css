@@ -11,8 +11,10 @@
 .menu__link {
   font-size: 14px;
   text-decoration: none;
+  line-height: 19px;
 }
 
 .menu__link:hover {
   color: #DA0100;
+  transition: all 0.3s;
 }
