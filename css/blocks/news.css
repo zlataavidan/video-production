@@ -6,7 +6,7 @@
 }
 
 .news {
-  margin-bottom: 57px;
+  margin-bottom: 53px;
   display: flex;
   justify-content: space-between;
 
@@ -23,8 +23,8 @@
 }
 
 .single-news {
-position: relative;
-overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .single-news__cover {
@@ -44,17 +44,17 @@ overflow: hidden;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25px 30px;
-  min-height: 140px;
+  padding: 26px 38px;
+  min-height: 150px;
 }
 
 .single-news__date {
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .single-news__title {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }

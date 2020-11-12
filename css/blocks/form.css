@@ -6,12 +6,17 @@
 .form__input {
   flex: 1;
   margin-right: 30px;
-  border-radius: 5px;
   background: #FFFFFF;
-  border: 1px solid #CCCCCC;
   padding: 22px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  border: none;
+  outline: none;
+}
+
+.form__input:focus {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
 }
 
 .form__input::placeholder {

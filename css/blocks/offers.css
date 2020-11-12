@@ -2,6 +2,7 @@
   overflow: hidden;
  display: flex;
  flex-direction: column;
+ margin-bottom: 28px;
 }
 
 .offers__list {
@@ -22,14 +23,14 @@
 
 .offers__img-wrapper {
   position: relative;
-  padding: 36px 34px 44px 25px;
+  padding: 18px 24px 44px 22px;
   height: 100%;
 }
 
 .offers__img {
   min-height: 83px;
   width: 84px;
-  margin-bottom: 7px;
+  margin-bottom: 30px;
 }
 
 .offers__content {
@@ -54,6 +55,7 @@
   margin-bottom: 10px;
   display: inline-flex;
   justify-content: space-between;
+  font-size: 16px;
 }
 
 .offers__desc-days {
@@ -62,15 +64,18 @@
 
 .offers__desc-people {
   height: 41px;
+  margin-right: 43px;
 }
+
+.offers__desc-number {
+  color: #000;
+  font-weight: 700;
+}
+
 
 .offers__text {
   font-size: 14px;
   color: #666666;
   margin-bottom: 32px;
   line-height: 22px;
-}
-
-.offers__btn {
- margin-top: auto;
 }

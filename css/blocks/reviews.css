@@ -45,6 +45,10 @@
   height: 30px;
 }
 
+.reviews__username {
+  margin-right: 7px;
+}
+
 .avatar {
   width: 142px;
   height: 142px;

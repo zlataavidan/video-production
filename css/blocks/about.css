@@ -21,10 +21,10 @@
 .about__content {
   background: #FFFFFF;
   border-radius: 5px;
-  padding: 79px 100px;
+  padding: 68px 90px;
   width: 785px;
   min-height: 455px;
-  margin-bottom: 44px;
+  margin-bottom: 50px;
 }
 
 .about__title {
@@ -38,4 +38,5 @@
 .about__text {
   color: #060606;
   margin-bottom: 61px;
+  max-width: 490px;
 }
