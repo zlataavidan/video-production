@@ -14,7 +14,7 @@
   line-height: 19px;
 }
 
-.menu__link:hover, .menu__link:visited, .menu__link:active {
+.menu__link:hover {
   color: #DA0100;
   transition: all 0.3s;
 }
