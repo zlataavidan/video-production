@@ -104,4 +104,6 @@
   width: 36px;
   height: 36px;
   background-color: center center no-repeat;
+  position: relative;
+  z-index: 10;
 }
