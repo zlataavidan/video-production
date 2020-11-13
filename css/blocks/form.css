@@ -7,11 +7,12 @@
   flex: 1;
   margin-right: 30px;
   background: #FFFFFF;
-  padding: 22px 30px;
+  padding: 26px 30px;
   font-size: 18px;
   color: #1A1B1E;
-  border: none;
+  border: transparent;
   outline: none;
+  border-radius: 5px;
 }
 
 .form__input:focus {
@@ -37,10 +38,9 @@
 }
 
 .form__controls-title {
-  width: 40%;
+  width: 37%;
   font-size: 18px;
   color: #1A1B1E;
-  padding-left: 25px;
 }
 
 .form__btns {
@@ -50,6 +50,7 @@
 
 .form__btn {
   margin-right: 20px;
+  padding: 18px 42px;
 }
 
 .form__btn:last-child {

@@ -1,9 +1,16 @@
 .header {
-  margin-bottom: 150px;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header--main {
+  margin-bottom: 150px;
+}
+
+.header--inner {
+  margin-bottom: 36px;
 }
 
 .header__col {

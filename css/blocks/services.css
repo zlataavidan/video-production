@@ -6,8 +6,8 @@
 
 .service {
   display: flex;
-  padding-top: 70px;
-  margin-bottom: 50px;
+  padding-top: 60px;
+  margin-bottom: 30px;
 }
 .service:last-child {
   margin-bottom: 70px;
@@ -15,8 +15,8 @@
 }
 
 .service__img {
-  width: 30%;
-  margin-right: 7%;
+  width: 40%;
+  margin-right: 6%;
 }
 
 .service__content {
@@ -32,5 +32,5 @@
 
 .service__desc {
   line-height: 1.7;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }

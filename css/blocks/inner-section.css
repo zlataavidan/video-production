@@ -1,7 +1,7 @@
 .inner-section {
   background: #fff;
   color: #1A1B1E;
-  padding: 90px 0px;
+  padding: 70px 0px;
 }
 
 .inner-section--bg--grey {
@@ -9,9 +9,15 @@
 }
 
 .inner-section__title {
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 65px;
-  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 54px;
+  color: #202020;
 }
 
+.inner-section__title--partners {
+  font-weight: bold;
+  font-size: 48px;
+  color: #1A1B1E;
+}
