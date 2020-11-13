@@ -10,9 +10,9 @@
   padding: 26px 30px;
   font-size: 18px;
   color: #1A1B1E;
-  border: transparent;
-  outline: none;
   border-radius: 5px;
+  border: 1px solid transparent;
+  outline: none;
 }
 
 .form__input:focus {
