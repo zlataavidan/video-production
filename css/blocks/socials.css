@@ -15,7 +15,6 @@
 }
 
 .socials__item-tg {
-  opacity: 50%;
   position: relative;
 }
 
@@ -23,6 +22,7 @@
   content: "";
   display: block;
   position: absolute;
+  opacity: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,7 +31,6 @@
 }
 
 .socials__item-vk {
-  opacity: 50%;
   position: relative;
 }
 
@@ -39,6 +38,7 @@
   content: "";
   display: block;
   position: absolute;
+  opacity: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,7 +47,6 @@
 }
 
 .socials__item-fb {
-  opacity: 50%;
   position: relative;
 }
 
@@ -55,6 +54,7 @@
   content: "";
   display: block;
   position: absolute;
+  opacity: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -63,7 +63,6 @@
 }
 
 .socials__item-insta {
-  opacity: 50%;
   position: relative;
 }
 
@@ -71,6 +70,7 @@
   content: "";
   display: block;
   position: absolute;
+  opacity: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -78,22 +78,22 @@
   background: url('../../img/sprite.png') -66px -10px;
 }
 
-.socials__item-tg:hover {
+.socials__item-tg:hover:after {
   opacity: 100%;
   transition: .3s;
 }
 
-.socials__item-vk:hover {
+.socials__item-vk:hover:after {
   opacity: 100%;
   transition: .3s;
 }
 
-.socials__item-fb:hover {
+.socials__item-fb:hover:after {
   opacity: 100%;
   transition: .3s;
 }
 
-.socials__item-insta:hover {
+.socials__item-insta:hover:after {
   opacity: 100%;
   transition: .3s;
 }
