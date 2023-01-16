@@ -10,8 +10,8 @@
 .dropdown__menu {
   position: absolute;
   background: rgba(255,255,255,0.8);
-  padding: 16px 8px;
-  width: 154px;
+  padding: 16px 20px;
+  width: 197px;
   top: 100%;
   right: 0;
   margin-top: 5px;
